@@ -239,20 +239,29 @@
 
 # Remove duplicate elements from an array.
 
+# import array
+# num = array.array("i",[1,2,3,4,2,5,6,7,])
+# print(num)
+# array_list = num.tolist()
+# unique_list = list(set(array_list))
+
+# unique_array = array.array("i", unique_list)
+
+# print(unique_array)
+
+
+# Reverse an array using slicing.
+
 import array
-num = array.array("i",[1,2,3,4,2,5,6,7,])
-print(num)
-array_list = num.tolist()
-unique_list = list(set(array_list))
-
-unique_array = array.array("i", unique_list)
-
-print(unique_array)
+num = array.array("i",[1,2,3,4,5,6,7])
+print(num.buffer_info())
 
 
-"sadfughkj"
-
-
+# for e in num:
+#     num.reverse()
+#     print(e)
+reverse_array = num[::-1]
+print(reverse_array) 
 
 
 
