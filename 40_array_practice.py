@@ -125,7 +125,7 @@
 
 
 import array as arr
-a = arr.array("d"[1.2,2.34,34.3,5.46,])
+a = arr.array("i",[12,234,343,546,])
 for i in range(3):
     print(a)
 
