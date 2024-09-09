@@ -124,10 +124,211 @@
 
 
 
+<<<<<<< HEAD
 import array as arr
 a = arr.array("i",[12,234,343,546,])
 for i in range(3):
     print(a)
+=======
+# import array as arr
+# a = arr.array("d"[1.2,2.34,34.3,5.46,])
+# for i in range(3):
+#     print(a)
+
+
+
+
+
+# from array import *
+# num = array("i",[1,2,3])
+# print(num)
+
+# for i in num:
+#     print(i)      # output = 1
+#                   #          2
+#                   #          3
+
+#                     #  add element in list
+# # sirf ekl element ko add akrana
+# x = num.append(4)
+# print(num)           # output = 1 2 3 4 
+
+# # multipal value add karana
+# x = num.fromlist([5,6,7])
+# print(num)
+
+
+# # add an element at the specific index
+
+# y = num.insert(7,8)
+# print(num)                 # yah sirf ek idex par value insert karega
+
+
+
+
+
+# remove an element by value
+
+# from array import *
+# num = array('i',[1,2,3,4,5])
+# y = num.remove(4)
+# print(num)
+
+
+# remove an element by index
+
+# from array import *
+# num = array("i", [1,2,3,4,])
+# y = num.pop(2)
+# print(num)
+
+
+# Write a program to iterate through an array and print each element.
+
+# from array import *
+# num = array("i",[1,2,3,4,6])
+# for i in num:
+#     print(i)
+
+
+# Find the sum and average of all elements in an array
+
+# from array import *
+# num = array("i",[1,2,3,4,5,6])
+# print(num)                        # output = array("i",[1,2,3,4,5,6])   
+
+# a = num[2]
+# b = num[1]
+# print(a + b)                      # output = 5
+
+
+
+# sum_of_element = sum(num) 
+# averege_of_element = sum_of_element / len(num)
+
+# print(f"sum = {sum_of_element}")
+# print(f"average = {averege_of_element}")
+
+
+
+
+# Count occurrences of a specific element in an array.
+
+# from array import *
+# num = array("i", [1,2,3,4,5,2,2,7])
+# print(num.count(2))
+
+
+# Find the maximum and minimum elements in an array
+
+# import array
+# num = array.array("i",[12,234,456,678,345])
+# print(max(num)) 
+# print(min(num))
+
+# Extract a subarray using slicing.
+# import array
+# num = array.array("i",[12,34,45,7,67,435,])
+# new_num = num[0:6]
+# print(new_num)
+
+# Remove duplicate elements from an array.
+
+# import array 
+# num = array.array("i",[2,34,4,2,5,6,2,3])
+# x = num.append(34)
+# print(num)
+
+
+
+
+
+# Remove duplicate elements from an array.
+
+import array
+num = array.array("i",[1,2,3,4,2,5,6,7,])
+print(num)
+array_list = num.tolist()
+unique_list = list(set(array_list))
+
+unique_array = array.array("i", unique_list)
+
+print(unique_array)
+
+
+"sadfughkj"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 337eba6955fb472810e26ece5fb167b4369e2e58
 
 
 

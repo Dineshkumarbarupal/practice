@@ -96,9 +96,50 @@
 
 
 
-my_list = [23,45,67,89,100,]
-for data in my_list:
-    print(data)
+# my_list = [23,45,67,89,100,]
+# for data in my_list:
+#     print(data)
+
+
+# import array
+
+# # Creating an integer array
+# my_array = array.array('i', [1, 2, 3, 4, 5])
+
+# # Accessing elements
+# print(my_array[0])  # Output: 1
+
+
+
+# import array
+
+# # Creating an integer array
+# my_array = array.array('i', [1, 2, 3, 4, 5])
+
+# # Accessing elements
+# print(my_array)  # Output: 1
+
+
+
+a = {
+    "name": "dinesh",
+    "age": 19,
+    "number": 6377781395
+}
+
+print(a)
+print(a["age"])
+
+print(a)
+
+
+
+
+
+
+
+
+
 
 
 
