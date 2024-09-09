@@ -124,12 +124,6 @@
 
 
 
-<<<<<<< HEAD
-import array as arr
-a = arr.array("i",[12,234,343,546,])
-for i in range(3):
-    print(a)
-=======
 # import array as arr
 # a = arr.array("d"[1.2,2.34,34.3,5.46,])
 # for i in range(3):
@@ -328,7 +322,6 @@ print(unique_array)
 
 
 
->>>>>>> 337eba6955fb472810e26ece5fb167b4369e2e58
 
 
 
