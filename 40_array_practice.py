@@ -235,22 +235,50 @@
 
 
 
-
-
 # Remove duplicate elements from an array.
 
-import array
-num = array.array("i",[1,2,3,4,2,5,6,7,])
-print(num)
-array_list = num.tolist()
-unique_list = list(set(array_list))
+# import array
+# num = array.array("i",[1,2,3,4,2,5,6,7,])
+# print(num)                        # output = array("i",[1,2,3,4,5,6,7])
+# array_list = num.tolist()         # convert array into list.
+# unique_list = list(set(array_list))      # deleting duplicate element element in list
 
-unique_array = array.array("i", unique_list)
+# unique_array = array.array("i", unique_list)    # convert list into array 
 
-print(unique_array)
+# print(unique_array)               # output = array('i',[1,2,3,4,5,6,7])
 
 
-"sadfughkj"
+# import array as arr
+# cars = arr.array("i",[1,2,3,4,5,6,7])
+# print(cars)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
