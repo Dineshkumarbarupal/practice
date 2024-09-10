@@ -239,48 +239,27 @@
 
 # import array
 # num = array.array("i",[1,2,3,4,2,5,6,7,])
-# print(num)                        # output = array("i",[1,2,3,4,5,6,7])
-# array_list = num.tolist()         # convert array into list.
-# unique_list = list(set(array_list))      # deleting duplicate element element in list
+# print(num)
+# array_list = num.tolist()
+# unique_list = list(set(array_list))
 
-# unique_array = array.array("i", unique_list)    # convert list into array 
+# unique_array = array.array("i", unique_list)
 
-# print(unique_array)               # output = array('i',[1,2,3,4,5,6,7])
-
-
-# import array as arr
-# cars = arr.array("i",[1,2,3,4,5,6,7])
-# print(cars)
+# print(unique_array)
 
 
+# Reverse an array using slicing.
+
+import array
+num = array.array("i",[1,2,3,4,5,6,7])
+print(num.buffer_info())
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for e in num:
+#     num.reverse()
+#     print(e)
+reverse_array = num[::-1]
+print(reverse_array) 
 
 
 
