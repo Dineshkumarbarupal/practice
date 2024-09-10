@@ -250,16 +250,233 @@
 
 # Reverse an array using slicing.
 
-import array
-num = array.array("i",[1,2,3,4,5,6,7])
-print(num.buffer_info())
+# import array
+# num = array.array("i",[1,2,3,4,5,6,7])
+# print(num.buffer_info())
 
 
 # for e in num:
 #     num.reverse()
 #     print(e)
-reverse_array = num[::-1]
-print(reverse_array) 
+# reverse_array = num[::-1]
+# print(reverse_array) 
+
+
+
+# Write a program to check if an element exists in the array.
+
+
+# def chack_element():
+#     import array
+#     num = array.array("i",[1,2,3,4,5,6,7])
+
+#     ckeck_element = int(input("Enter element which you want to check: "))
+
+#     if ckeck_element in num:
+#         print("element exists in array   ")
+
+#     else:
+#         print("element not found")
+
+# chack_element()
+# chack_element()
+# chack_element()
+# chack_element()
+# chack_element()
+# chack_element()
+
+
+
+# Find the index of the first occurrence of an element in an array.
+
+# import array
+# num = array.array("i",[10,20,30,40,20,50])
+# num_index = num.index(20)
+# print(num_index)
+
+# Sort an array in ascending order without using built-in methods.
+
+# import array
+# num = array.array("i",[1,34,6,432,77,8,546,23,435])
+# def booble_sort(arr):
+#     n = len(arr)
+#     for i in range(n):
+#         for j in range(0,n-i-1):
+#             if arr[j] > arr[j+1]:
+#                 arr[j],arr[j+1] = arr[j+1],arr[j]
+
+# booble_sort(num)
+# print("sorted array in ascending order")
+# for i in num:
+#     print(i,end= " ")
+
+
+# Sort an array in descending order.
+
+# import array
+# num = array.array("i",[1,34,6,432,77,8,546,23,435])
+# def booble_sort(arr):
+#     n = len(arr)
+
+#     for i in range(n):
+#         for j in range(0,n-i-1):
+#             if arr[j] < arr[j+1]:
+#                 arr[j],arr[j+1] = arr[j+1],arr[j]
+#     print(arr[2])
+    
+# booble_sort(num)
+# print("sorted array in ascending order")
+# for i in num:
+#     print(i,end= " ")
+
+# Merge two arrays into one.
+
+# import array
+# num1 = array.array("i",[1,2,3,4])
+# num2 = array.array("i",[5,6,7,8])
+# new_array = num1 + num2
+
+# print(f"new array is = {new_array}")
+
+# Rotate an array by a certain number of positions.
+# import array 
+# num = array.array("i",[1,2,3,4,5,6])
+
+# n = 2
+
+# array_rotate = num[n:] + num[:n]
+# print(array_rotate)                     # output  array("i",[3,4,5,1,2])
+
+
+# import array
+# num = array.array("i",[1,2,3,4,5])
+
+# n = 2
+
+# array_rotete = num[-n:] + num[:-n]
+# print(array_rotete)
+
+
+
+# Shift all elements of the array by one position to the right.
+
+# import array
+# arr = array.array("i",[1,2,3,4,5,6,7])
+# change_position = arr[-1:] +arr[:-1]
+# print(change_position)
+
+# import array
+# num = array.array("i",[1,2,3,34,5,6,])
+# print(num)
+
+# import array 
+# num = array.array("i",[1,2,3,4,5,6])
+# x = max(num)
+# print(x)
+# y = min(num)
+# print(y)
+
+
+# import array
+# num = array.array("i",[1,2,4,5,])
+# x = num.insert(2,3)
+# print(num)
+
+
+
+# Find the second largest element in an array
+
+
+
+# import array
+# arr = array.array("i",[10, 20, 4, 45, 99, 99])
+
+# def find_second_largest(arr):
+#     if len(arr) < 2:
+#         return "array must have at least two element"
+    
+#     largest = second_largest = float("-inf")
+#     for num in arr:
+#         if num > largest:
+#             second_largest = largest
+#             largest = num
+#         elif num > second_largest and num != largest:
+#             second_largest = num
+        
+
+#         if second_largest == float("-inf"):
+#             return "there is no second largest number"
+
+#         else:
+#             return second_largest        
+
+# result = find_second_largest(arr)
+# print(f"The second largest element = {result}")
+
+
+# Check if an array is a palindrome (same forwards and backwards).
+
+
+
+import array
+arr = array.array("i",[1,2,3,2,1])
+def is_palindrome(arr):
+    return arr == arr[::-1]
+
+if is_palindrome(arr):
+    print("this array is a palindrome")
+
+else:
+    print("this is not a palindrome")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
