@@ -448,19 +448,6 @@
 
 import array 
 def create_array():
-    num = array.array("i",[])
-
-    for a in num:
-        i = int(input("Enter number"))
-        print(a)
-    
-      
-
-
-
-create_array()
-create_array()
-create_array()
 
 
 
