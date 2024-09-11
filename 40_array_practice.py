@@ -418,16 +418,68 @@
 
 
 
-import array
-arr = array.array("i",[1,2,3,2,1])
-def is_palindrome(arr):
-    return arr == arr[::-1]
+# import array
+# arr = array.array("i",[1,2,3,2,1])
+# def is_palindrome(arr):
+#     return arr == arr[::-1]
 
-if is_palindrome(arr):
-    print("this array is a palindrome")
+# if is_palindrome(arr):
+#     print("this array is a palindrome")
 
-else:
-    print("this is not a palindrome")
+# else:
+#     print("this is not a palindrome")
+
+
+# Write a program to shift negative numbers to one side and positive to the other.
+
+# import array
+# arr = array.array("i",[1,-2,3,-4,5,-6])
+# def shift_negetive_positive(arr):
+#   negetive_number = array.array("i",[num for num in arr if num < 0 ])
+#   positive_number = array.array("i",[num for num in arr if num > 0 ])
+#   return negetive_number + positive_number
+
+
+# shifted_array = shift_negetive_positive(arr)
+# print("Array after shifting negative and positive numbers:")
+# for num in shifted_array:
+#   print(num,end= " ")
+
+
+import array 
+def create_array():
+    num = array.array("i",[])
+
+    for a in num:
+        i = int(input("Enter number"))
+        print(a)
+    
+      
+
+
+
+create_array()
+create_array()
+create_array()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
