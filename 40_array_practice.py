@@ -457,14 +457,22 @@
 
 # create_array()
         
-for i in range(1,10):
-    for a in range(1,10):
-        print(f"{i} x {a} = {i * a}", end="")
+# for i in range(1,10):
+#     for a in range(1,10):
+#         print(f"{i} x {a} = {i * a}", end="")
 
+dict = {
+    "name": "dinesh",                  # name is a key and dinesh is it's velue 
+    "age": "19",                       # it is call keyvalue pairs
+    "work": "python devloper"
 
+}
 
+for i in dict:
+    print(i)
+    
 
-
+print(dict["name"])
 
 
 
