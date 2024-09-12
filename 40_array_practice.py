@@ -549,6 +549,35 @@
 #     print(f"{name} scored {score} points")
 
 
+#  Dictionary Iteration (डिक्शनरी के साथ लूपिंग):
+
+# student_scores = {"dinesh": 13,"jaspal":24, "haris":2}
+
+# for name,score in student_scores.items():
+#     print(f"{name} scores {score} scores")
+
+
+# student_rollno = {"dinesh": 101,"jaspal": 102 }
+
+# for name,rollno in student_rollno.items():
+#     print(f"{name} ka rollno {rollno} hai  ")
+
+# # Looping with Conditions (शर्तों के साथ लूपिंग):
+
+# number = [1,2,3,4,5,6,7,8,9,10]
+# even_number = [num for num in number if num % 2 == 0]
+# print(even_number)
+
+number = [126,236,822,904,523,645,712,874]
+even_number = [num for num in number if num  % 2 == 0]   # % iska matalab hai ki divide karane ke bad ka total
+print(even_number)
+
+
+
+
+
+
+
 
 
 
