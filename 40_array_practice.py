@@ -473,6 +473,12 @@ for i in dict:
     
 
 print(dict["name"])
+print(dict["age"])
+print(dict["work"])
+
+print(dict)
+x = dict.clear()
+print(dict)
 
 
 
