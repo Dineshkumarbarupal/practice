@@ -500,19 +500,19 @@
 #     for a in range(1,10):
 #         print(f"{i * a}")
 
-matrix = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
+# matrix = [
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
    
-]
+# ]
 
-print(type(matrix))
+# print(type(matrix))
 
-for row in matrix:
-    for value in row:
-        print(value ,end="")
-    print() 
+# for row in matrix:
+#     for value in row:
+#         print(value ,end="")
+#     print() 
 
 
 # my_dict = {
@@ -542,7 +542,11 @@ for row in matrix:
 #     print(f"index = {index} , fruits = {fruit}")
 
 
+# name = ["dinesh","mukesh","ram"]
+# scores = [100,67,40]
 
+# for name,score in zip (name,scores):
+#     print(f"{name} scored {score} points")
 
 
 
