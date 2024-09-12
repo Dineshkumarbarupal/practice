@@ -14,7 +14,7 @@
 # var = array("i",[456, 56,-8,33,553, 53453])
 # print(var.buffer_info())
 
-            # this is a count mathod
+#             this is a count mathod
 # from array import *
 # var1 = array("i",[12,3,23,23,3,3,3])
 # var2 = array("i",[2,34,3,2,34,23,23,2,2])
@@ -461,174 +461,85 @@
 #     for a in range(1,10):
 #         print(f"{i} x {a} = {i * a}", end="")
 
-dict = {
-    "name": "dinesh",                  # name is a key and dinesh is it's velue 
-    "age": "19",                       # it is call keyvalue pairs
-    "work": "python devloper"
+# dict = {
+#     "name": "dinesh",                  # name is a key and dinesh is it's velue 
+#     "age": "19",                       # it is call keyvalue pairs
+#     "work": "python devloper"
 
-}
+# }
 
-for i in dict:
-    print(i)
+# for i in dict:
+#     print(i)
     
 
-print(dict["name"])
-print(dict["age"])
-print(dict["work"])
+# print(dict["name"])
+# print(dict["age"])
+# print(dict["work"])
 
-print(dict)
-x = dict.clear()
-print(dict)
+# print(dict)
+# x = dict.clear()
+# print(dict)
 
+# import time
+# time_now = time.localtime()
+# print(time_now)
 
+# next = time.process_time()
+# print(next)
 
+# dict = {
+#     "name": "dinesh",
+#     "age": "19",
+#     "work": "python devloper"
+# }
 
+# print(dict)
+# c = dict.copy()
 
+# for i in range(1,10):
+#     for a in range(1,10):
+#         print(f"{i * a}")
 
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+   
+]
 
+print(type(matrix))
 
+for row in matrix:
+    for value in row:
+        print(value ,end="")
+    print() 
 
 
+# my_dict = {
+#     "name": "dinesh",
+#     "age": "19",
+#     "work": "python developer"
+# }
 
+# for key,value in my_dict.items():
+#     print(key,value)
 
+                         # List Comprehensions (लिस्ट कंप्रीहेंशन):
+# squares = []
 
+# for i in range(1,6):
+#     squares.append(i ** 2)
+# print(squares)
 
+# squares = [i ** 2 for i in range(1,6)]
+# print(squares)
 
+# Looping with enumerate() (इन्म्यूरेट के साथ लूपिंग):
 
+# fruits = ["apple","banana","mango"]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for index,fruit in enumerate (fruits):
+#     print(f"index = {index} , fruits = {fruit}")
 
 
 
