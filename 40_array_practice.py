@@ -446,8 +446,38 @@
 #   print(num,end= " ")
 
 
-import array 
-def create_array():
+# import array 
+# def create_array():
+#     a = array.array("i",[])
+#     for i in range(5):
+#        num = int(input("Enter number"))
+#        return num
+
+#     print(a.append(i))
+
+# create_array()
+        
+for i in range(1,10):
+    for a in range(1,10):
+        print(f"{i} x {a} = {i * a}", end="")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
