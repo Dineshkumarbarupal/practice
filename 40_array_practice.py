@@ -252,17 +252,33 @@
 
 # Reverse an array using slicing.
 
+# import array
+# num = array.array("i",[1,2,3,4,5,6,7])
+# print(num.buffer_info())
+
+
+# # for e in num:
+# #     num.reverse()
+# #     print(e)
+# reverse_array = num[::-1]
+# print(reverse_array) 
+
+
+
+
 import array
-num = array.array("i",[1,2,3,4,5,6,7])
-print(num.buffer_info())
 
+num = array.array("i",[1,2,3,4,5,6])
+lenth = len(num)
+print(lenth)
 
-# for e in num:
-#     num.reverse()
-#     print(e)
-reverse_array = num[::-1]
-print(reverse_array) 
+mid = lenth // 2
+print(mid)
 
+first_haf = num[:mid]
+second_haf = num[mid:]
+print(first_haf)
+print(second_haf)
 
 
 
