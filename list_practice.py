@@ -19,8 +19,20 @@
 
 
 
-my_list = [1,2,3,4,5,6]
-print(my_list[2:5])             # output = [3,4,5]
+# my_list = [1,2,3,4,5,6]
+# print(my_list[2:5])             # output = [3,4,5]
+
+my_list = [1,2,3]
+my_list.append(4)
+print(my_list)                    # output = [1,2,3,4]
+
+
+
+
+
+
+
+
 
 
 
