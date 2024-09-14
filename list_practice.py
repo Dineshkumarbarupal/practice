@@ -146,7 +146,7 @@
                           # sum() method in list
 
 # new_list = [1,2,3,4,5,6,7]
-# print(sum(new_list))
+# print(sum(new_list))     # output = 28
 
 #                       # any(): Agar list mein koi bhi element True ho, to True return karta hai, otherwise False.
 
@@ -155,16 +155,16 @@
 
 
 
-                        # all(): Agar list ke saare elements True ho, to True return karta hai, otherwise False.
+#                         # all(): Agar list ke saare elements True ho, to True return karta hai, otherwise False.
 
 # my_list = [1,2,3,4,5,6]
-# print(all(my_list))
+# print(all(my_list))           # output = True
 
 
-                       # len() method for count lengh of list
+#                        # len() method for count lengh of list
 
 # my_list = [1,2,3,4,5,6]
-# print(len(my_list))
+# print(len(my_list))      # output = 6
 
 
 
@@ -198,17 +198,17 @@
 
 # my_list = [1,2,3,4,5,6]
 # new_list = list(filter(lambda x: x % 2 == 0, my_list))
-# print(new_list)
+# print(new_list)      # output = [2,4,6]
 
 
 # my_list = [12134,2345,376,423,5456,69534]
 # new_list = list(filter(lambda x: x % 2 == 0, my_list))
-# print(new_list)
+# print(new_list)            # output [12134, 376, 5456, 69534]
 
 
 # my_list = ["a","e",2,2,3]
 # for index,value in enumerate(my_list):
-#     print(index,value,end=" ")
+#     print(index,value,end=" ")      # output 0 a 1 e 2 3 2 4 3
 
                        
 
@@ -216,31 +216,39 @@
                
 # my_list = [1,2,3,4,5]
 # for value in reversed(my_list):
-#     print(value)
+#     print(value,end=" ")        # output = 5 4 3 2 1
 
 # my_list = [1,2,3,4,5]
 # for value in enumerate(reversed(my_list)):
-#     print(value)
+#     print(value,end=" ")        # output = (0, 5) (1, 4) (2, 3) (3, 2) (4, 1)
 
+
+
+
+               # zip() method
 
 # fist_list = [1,2,3]
 # second_list = [4,5,6]
 
 # zipped = list(zip(fist_list,second_list))
-# print(zipped)
+# print(zipped)       # output [(1,4),(2,5),(3,6)]     
 
 
                  # list comprehanse
 
 # my_list = [1,2,3,4,5]
 # new_list = [x *2 for x in my_list]
-# print(new_list)
+# print(new_list)     # output = [2,4,6,8,10]
 
 
 
-my_list = [1,2,3,4,5,6,7,8]
-print(my_list[1:6])
-# print(my_list)
+
+
+    #  slice() method
+
+# my_list = [1,2,3,4,5,6,7,8]
+# print(my_list[1:6])  # output = [2,3,4,5,6]
+# print(my_list)     # output = [1,2,3,4,5,6,7,8]    
 
 
 
