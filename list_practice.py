@@ -183,15 +183,18 @@
 
                                 # Built-in Functions:
 
-#       # map function with list
+#       # map(function, iterable)
 
-# my_list = [1,2,3,4,5]
+# my_list = [1,2,3,4,5]   
 # new_list = list(map(lambda x: x * 2, my_list ))
 # print(new_list)   # output = [1,4,6,8,10]
 
 
 # my_list = [1,2,3,4]
 # print(len(my_list))  # output = 4
+
+
+        # filter()  methods 
 
 # my_list = [1,2,3,4,5,6]
 # new_list = list(filter(lambda x: x % 2 == 0, my_list))
@@ -207,14 +210,34 @@
 # for index,value in enumerate(my_list):
 #     print(index,value,end=" ")
 
+                       
 
-my_list = [1,2,3,4,5]
-for value in reversed(my_list):
-    print(value)
+            #   reversed()mathod
+               
+# my_list = [1,2,3,4,5]
+# for value in reversed(my_list):
+#     print(value)
 
-my_list = [1,2,3,4,5]
-for value in enumerate(reversed(my_list)):
-    print(value)
+# my_list = [1,2,3,4,5]
+# for value in enumerate(reversed(my_list)):
+#     print(value)
+
+
+# fist_list = [1,2,3]
+# second_list = [4,5,6]
+
+# zipped = list(zip(fist_list,second_list))
+# print(zipped)
+
+
+
+
+
+
+
+
+
+
 
 
 
