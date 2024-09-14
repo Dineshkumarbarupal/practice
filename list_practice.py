@@ -183,11 +183,27 @@
 
                                 # Built-in Functions:
 
-      # map function with list
+#       # map function with list
 
-my_list = [1,2,3,4,5]
-new_list = list(map(lambda x: x * 2, my_list ))
-print(new_list)
+# my_list = [1,2,3,4,5]
+# new_list = list(map(lambda x: x * 2, my_list ))
+# print(new_list)   # output = [1,4,6,8,10]
+
+
+# my_list = [1,2,3,4]
+# print(len(my_list))  # output = 4
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
