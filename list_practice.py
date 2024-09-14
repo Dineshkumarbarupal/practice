@@ -101,10 +101,64 @@
 
 
 
+                            
+# new_list = [1,2,3,4,5]
+# new_list.extend([1,2,3,4])
+# print(new_list)
 
-new_list = [1,2,3,4,5]
-new_list.extend([1,2,3,4])
-print(new_list)
+ 
+                      # max() method in list
+
+
+# new_list = [1,2,3,4,5]
+# print(max(new_list))
+
+
+                      # min() method in list
+
+
+# new_list = [1,2,3,4,5]
+# print(min(new_list))
+
+
+                      # sorted() method in list
+
+# my_list = [1,53,354,2,34,4,5,356]
+# new_list = sorted(my_list)
+# print(new_list)
+
+
+
+
+
+                       # list() method   kise bhi itereble ko list me convert karane ke liye
+
+# my_tuple = (1,2,3,4,5,6)
+# conver_list = (list(my_tuple))
+# print(conver_list)              # output =     [1,2,3,4,5,6]
+
+# print(type(conver_list))        # output = <class, list>
+
+                
+
+
+
+                          # sum() method in list
+
+# new_list = [1,2,3,4,5,6,7]
+# print(sum(new_list))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
