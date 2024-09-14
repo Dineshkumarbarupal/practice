@@ -251,9 +251,14 @@
 # print(my_list)     # output = [1,2,3,4,5,6,7,8]    
 
 
+#  # list comprihanse
+# saquar = [x ** 2 for x in range(10)]
+# print(saquar)   # output = [0,1,4,9,16,25,36,49,64,81]
 
 
-
+# matrix = [[1,2],[3,4]]
+# print(matrix[0])   # output [1,2]
+# print(matrix[1],[2])   # output [3,4] [2]
 
 
 
