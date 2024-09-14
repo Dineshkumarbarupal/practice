@@ -148,6 +148,56 @@
 # new_list = [1,2,3,4,5,6,7]
 # print(sum(new_list))
 
+#                       # any(): Agar list mein koi bhi element True ho, to True return karta hai, otherwise False.
+
+# new_list = [1,2,3,4,5]
+# print(any(new_list))          # output = True
+
+
+
+                        # all(): Agar list ke saare elements True ho, to True return karta hai, otherwise False.
+
+# my_list = [1,2,3,4,5,6]
+# print(all(my_list))
+
+
+                       # len() method for count lengh of list
+
+# my_list = [1,2,3,4,5,6]
+# print(len(my_list))
+
+
+
+
+
+                      # sorted(): List ke elements ko sort karke ek nayi list return karta hai (original list ko change nahi karta).
+
+
+
+# my_list = [1,2,3,4,5]
+# new_list = sorted(my_list)
+# print(new_list)               # output = [1,2,3,4,5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           
 
 
 
