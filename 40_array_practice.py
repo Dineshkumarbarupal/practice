@@ -575,9 +575,31 @@
 # even_number = [num for num in number if num % 2 == 0]
 # print(even_number)
 
-number = [126,236,822,904,523,645,712,874]
-even_number = [num for num in number if num  % 2 == 0]   # % iska matalab hai ki divide karane ke bad ka total
-print(even_number)
+
+
+# number = [126,236,822,904,523,645,712,874]
+# even_number = [num for num in number if num  % 2 == 0]   # % iska matalab hai ki divide karane ke bad ka total
+# print(even_number)
+
+
+# num = {"name":}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
