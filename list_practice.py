@@ -193,6 +193,42 @@
 # my_list = [1,2,3,4]
 # print(len(my_list))  # output = 4
 
+# my_list = [1,2,3,4,5,6]
+# new_list = list(filter(lambda x: x % 2 == 0, my_list))
+# print(new_list)
+
+
+# my_list = [12134,2345,376,423,5456,69534]
+# new_list = list(filter(lambda x: x % 2 == 0, my_list))
+# print(new_list)
+
+
+# my_list = ["a","e",2,2,3]
+# for index,value in enumerate(my_list):
+#     print(index,value,end=" ")
+
+
+my_list = [1,2,3,4,5]
+for value in reversed(my_list):
+    print(value)
+
+my_list = [1,2,3,4,5]
+for value in enumerate(reversed(my_list)):
+    print(value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
