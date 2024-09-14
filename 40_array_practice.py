@@ -582,7 +582,7 @@
 # print(even_number)
 
 
-num = {"name":}
+# num = {"name":}
 
 
 
