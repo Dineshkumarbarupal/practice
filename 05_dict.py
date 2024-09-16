@@ -100,6 +100,33 @@
 
 
 
+# Nested DictionariesNested Dictionaries
+
+# students = {
+#     "student1":{
+#         "name": "amit",
+#         "age": 21,
+#         "address": "sriganganagar"    
+#     },
+#     "student2":{
+#         "name": "raj",
+#         "age": 20,
+#         "address": "jaipur"
+                
+#     }
+# }
+
+# print(students["student1"],["student2"])
+
+
+
+
+
+
+
+
+
+
 
 
 
