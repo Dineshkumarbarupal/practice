@@ -38,14 +38,14 @@
 
 # my_list = [1,2,3,4,5]
 # my_list.pop(1)
-# print(my_list)
+# print(my_list)  # output = [1,3,4,5]
 
 
                     #   insert() method
 
 # my_list = [1,2,4]
-# my_list.insert(2,3)
-# print(my_list)
+# my_list.insert(2,3)    # index par value
+# print(my_list)         # [1,2,3,4]
 
                           
 
@@ -174,9 +174,9 @@
 
 
 
-# my_list = [1,2,3,4,5]
-# new_list = sorted(my_list)
-# print(new_list)               # output = [1,2,3,4,5]
+my_list = [1,5,4,3,2]
+new_list = sorted(my_list)
+print(new_list)               # output = [1,2,3,4,5]
 
 
 

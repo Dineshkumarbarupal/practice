@@ -170,13 +170,74 @@
 
 
 
+      # itersactio_update()
+
+# my_set1 = {1,2,3}
+# my_set2 = {1,2,4}
+# my_set1.intersection_update(my_set2)
+# print(my_set1)              # output = {1,2}
+
+       
+
+      # diffrence_update()
+
+
+# my_set1 = {1,2,3,4,5}
+# my_set2 = {1,2,6,7,8}
+# my_set1.difference_update(my_set2)
+# print(my_set1)               # output = {3,4,5}
 
 
 
 
 
+        #  symmetric_difference_update()
+
+# my_set1 = {1,2,3,4,5}
+# my_set2 = {1,2,3,7,8}
+# my_set1.symmetric_difference_update(my_set2)
+# print(my_set1)        # output = {4,5,7,8}
+
+ 
 
 
+
+#         # min() method 
+
+# my_set = {1,2,3,4,5,6}
+# print(min(my_set))    # output = 1
+
+
+        #    max() methods
+
+
+# my_set = {1,2,3,4,5,6}
+# print(max(my_set))        # output = 6
+
+
+
+ 
+           # sum() methods
+
+# my_set = {1,2,3,4,5,6}
+# print(sum(my_set))    # output = 21
+
+
+       # sorted method
+
+# my_set = {1,6,5,4,2,8}
+# print(sorted(my_set))
+
+
+
+  #   enumerate()
+# my_set = {1,2,4,5,6,7}
+# for index,value in enumerate(my_set):
+#     print(f"{index}:{value}")
+
+
+
+            #    any() method
 
 
 

@@ -109,9 +109,9 @@
 
       #  Nesting Tuples
 
-my_tuple = ((1,2,),(3,4,5),(12,32))
-print(my_tuple[0])        # output = (1,2)
-print(my_tuple[0][1])     # output = 2 
+# my_tuple = ((1,2,),(3,4,5),(12,32))
+# print(my_tuple[0])        # output = (1,2)
+# print(my_tuple[0][1])     # output = 2 
 
 
 #    sorted metnods
