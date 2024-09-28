@@ -121,7 +121,8 @@
 # print(sortted_list)                 # output [1,2,3,4,5]
 # print(type(sortted_list))           # output <class 'list'>
 
-
+my_tuple = (1,2,3,4,5,6)
+print(my_tuple)
 
 
 
